@@ -1,0 +1,39 @@
+name: localization
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+
+  # Core scientific stack
+  - numpy
+  - matplotlib
+  - seaborn
+  - pillow
+  - open3d
+  - pandas
+
+  # ML utilities
+  - scikit-learn
+
+  # Jupyter
+  - jupyter
+  - ipykernel
+  - ipython
+
+  - pip:
+    # PyTorch with CUDA 12.6 
+    - --extra-index-url https://download.pytorch.org/whl/cu126
+    - torch
+    - torchvision
+
+    # YOLOv8
+    - ultralytics==8.4.19
+    - easydict==1.13
+    - shapely==2.1.2
+    - protobuf==3.20.1
+    - google==3.0.0
+    # OpenCV headless (no GUI dependencies)
+    - opencv-python-headless
