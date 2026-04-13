@@ -1,0 +1,4 @@
+Name,Contribution
+Umut Tanriverdi,"ICP algorithm implementation (SVD alignment, KD-tree correspondence search, outlier rejection), ICP parameter tuning, final report"
+Matthias Gander,"NDT algorithm implementation (Gaussian grid, vectorized Newton's method, line search), NDT parameter tuning, final report"
+Olawale David Salami,"Assistance across ICP and NDT pipelines, Analysis section (error, timing, complexity comparison), final report"
